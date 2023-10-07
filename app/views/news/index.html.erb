@@ -1,0 +1,10 @@
+<h1>News</h1>
+
+<ul>
+  <% @news.each do |news| %>
+    <li>
+      <p><%= news.title %></p>
+      <p><%= news.body %></p>
+    </li>
+  <% end %>
+</ul>
